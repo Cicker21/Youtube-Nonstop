@@ -1,2 +1,3 @@
 # Youtube-Nonstop
-The extension prevents YouTube from stopping videos
+Web-extension prevents YouTube from stopping videos
+Firefox and Chrome support
