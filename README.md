@@ -7,4 +7,5 @@ Firefox and ~~no longer Chrome support~~
 
 <h1>Comments and suggestions</h1>
 <a href="https://github.com/Cicker21/Youtube-Nonstop/issues">Github</a>
+<br>
 <a href="https://discord.com/">Discord: Cicker</a>
