@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>YouTube Nonstop</title>
+	<style>
+		body {
+			background: linear-gradient(to bottom, #3267bf, #4289ff);
+			width: 200px;
+			font-family: Arial, sans-serif;
+
+		}
+
+		h1 {
+			font-size: 16px;
+			color: white;
+		}
+
+		h2 {
+			font-size: 14px;
+		}
+
+		button {
+			background: #cfeea6;
+			width: 40%;
+			font-size: 20px;
+			float: center;
+			margin-top: 20px;
+		}
+
+		#setts {
+			font-size: 16px;
+			width: 150px;
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>YouTube Nonstop</h1>
+	<h2>Settings</h2>
+	<div id="setts">
+		<label>
+			Button starts off
+			<input type="checkbox" id="cb1">
+		</label>
+		<br>
+		<label>
+			Only active tabs
+			<input type="checkbox" id="cb2">
+		</label>
+		<br>
+		<label>
+			Visible Button
+			<input type="checkbox" id="cb3" checked>
+		</label>
+	</div>
+	<center>
+		<button id="saveButton">Save</button>
+	</center>
+	<script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Nonstop",
+  "version": "1.3.9",
+  "author": "Cicker",
+  "description": "The extension prevents YouTube from stopping videos",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "*://*.youtube.com/*"
+  ],
+  "icons": {
+    "256": "icons/Nonstop.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "256": "icons/Nonstop.png"
+    }
+  }
+}
